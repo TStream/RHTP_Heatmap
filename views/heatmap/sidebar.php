@@ -1,7 +1,7 @@
 <br/>
-<script type="text/javascript" src="<?php echo url::base(); ?>plugins/heatmap/media/heatmap/js/heatmap.js"></script>
-<script type="text/javascript" src="<?php echo url::base(); ?>plugins/heatmap/media/heatmap/js/heatmap-openlayers.js"></script>
-<script type="text/javascript" src="<?php echo url::base(); ?>plugins/heatmap/views/heatmap/heatmap.js"></script>
+<script type="text/javascript" src="<?php echo url::base(); ?>plugins/RHTP_Heatmap/media/heatmap/js/heatmap.js"></script>
+<script type="text/javascript" src="<?php echo url::base(); ?>plugins/RHTP_Heatmap/media/heatmap/js/heatmap-openlayers.js"></script>
+<script type="text/javascript" src="<?php echo url::base(); ?>plugins/RHTP_Heatmap/views/heatmap/heatmap.js"></script>
 
 <script>
 var response;
@@ -37,11 +37,11 @@ function hideHeatmap(){
 </script>
 <ul class="category-filters" id="heatmapButton">
 	<li id="showHmap" onclick="showHeatmap()">
-			<span ><img src="<?php echo url::base() ?>plugins/heatmap/media/heatmap/images/fire.png" style="float:left;padding-right:5px;"></span>
+			<span ><img src="<?php echo url::base() ?>plugins/RHTP_Heatmap/media/heatmap/images/fire.png" style="float:left;padding-right:5px;"></span>
 			<span class="category-title" style="line-height:22px;"><?php echo Kohana::lang('heatmap.heatmap'); ?></span>
 	</li>
 	<li id="showMap" onclick="hideHeatmap()" style="display:none">
-	    <span><img src="<?php echo url::base() ?>plugins/heatmap/media/heatmap/images/marker.png" height="24" width="21" style="float:left;padding-right:5px;"></span>
+	    <span><img src="<?php echo url::base() ?>plugins/RHTP_Heatmap/media/heatmap/images/marker.png" height="24" width="21" style="float:left;padding-right:5px;"></span>
   	    <span class="category-title" style="line-height:22px;">Show Markers</span>
 	</li>
 </ul>
