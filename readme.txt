@@ -10,6 +10,7 @@ author website:
 
 == Description ==
 Generate a Heatmap from Active Reports
+Works with https://github.com/TStream/Ushahidi_Select_Multiple_Categories
 
 == Installation ==
 1. Copy the entire /heatmap/ directory into your /plugins/ directory.
