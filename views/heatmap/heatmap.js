@@ -84,7 +84,6 @@
 				}
 
 				transformedUshahidiData.data = nudata;
-			    hmap.zoomToMaxExtent();
 				heatmap.setDataSet(transformedUshahidiData);
                 });
 
