@@ -13,7 +13,8 @@ Generate a Heatmap from Active Reports
 Works with https://github.com/TStream/Ushahidi_Select_Multiple_Categories
 
 == Installation ==
-1. Copy the entire /heatmap/ directory into your /plugins/ directory.
-2. Activate the plugin.
+1. Copy the entire /RHTP_Heatmap/ directory into your /plugins/ directory.
+2. Change the premission on the directory and its contents to 755
+3. Activate the plugin.
 
 == Changelog ==
