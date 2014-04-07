@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="RHTP Heatmap : A heatmap plugin for Ushahidi" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>RHTP Heatmap</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+    	 <a id="forkme_banner" href="https://github.com/mtrebell/RHTP_Heatmap">View on GitHub</a>
+        <header class="inner">
+
+       	  <h1 id="project_title">RHTP Heatmap</h1>
+       	  <h2 id="project_tagline">A Heatmap Plugin For Ushahidi</h2>
+       	  <!--Add Links Here -->
+			<span>
+					<a href="index.html">About</a>
+					|<a href="index.html #installation"> Install</a>
+					|<a href="#developers">Developers</a>
+				</span>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mtrebell/RHTP_Heatmap/zipball/master">
+				Download this plugin as a .zip file
+              </a>
+              <a class="tar_download_link" href="https://github.com/mtrebell/RHTP_Heatmap/tarball/master">
+                Download this plugin as a tar.gz file
+              </a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+  <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+  
+        <h2>
+          <a name="" class="anchor" href="#Developers">
+            <span class="octicon octicon-link"></span>
+          </a>
+          Developers
+        </h2>
+        
+        <h3>
+          <a name="next" class="anchor" href="#Next">
+            <span class="octicon octicon-link"></span>
+          </a>
+          Changes
+        </h3>
+        <p>This plugin is a modification of the original Ushahidi Heatmap plugin by dkiboa. It can be found <a href="https://github.com/dkobia/heatmap" style="color:blue">here</a></p>
+        <p>We made the following modifications to this plugin:</p>
+        <ul class="changeList">
+        	views/heatmap/sidebar.php
+        	<li>Embedded Heatmap into mainpage as a seperate map</li>
+        	<li>Brought the heatmap button to the top of the sidebar</li>
+        	<li>Added toggle function that allows users to switch between main map and heatmap</li>
+        	<li>Refactor sidebar.php to seperate map handling js into its own file (heatmap.js)</li>
+        	views/heatmap.js
+        	<li>Changed the draw behaviour of heatmap</li>
+        	<li>Added code to handle map updating</li>
+        	openlayers_heatmap.js
+        	<li>Added blue overlay to map</li>
+        	<li>Brought the heatmap button to the top of the sidebar</li>
+        	controllers/heatmap.js
+        	<li>Load retrived data into a json file</li>
+        </ul>
+        <h3>
+          <a name="next" class="anchor" href="#Next">
+            <span class="octicon octicon-link"></span>
+          </a>
+          What Next?
+        </h3>
+         <p>Here are some suggestions of what could be done to make this project more functional:</p>
+        <ul>
+        	<li>Add the heatmap layer directly to the existing map</li>
+        	<li>Make te blue overlay optional - Allow users to pick its color</li>
+        	<li>To change how the heatmap draws change the pointgradient in heatmap.js</li>
+        	<li>To change how the heatmap draws the blue overlay ADD LOC HERE</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">RHTP Heatmap maintained by the RHTP Team <a href="https://github.com/TStream">TStream</a> <a href="https://github.com/mtrebell">mtrebell</a> <a href="https://github.com/nicowalker">nicowalker</a> </p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+    
+  </body>
+</html>
